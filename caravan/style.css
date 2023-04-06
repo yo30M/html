@@ -211,6 +211,7 @@ header .heading {
 .social i {
   display: inline-block;
   margin-left: 20px;
+  color: black;
 }
 
 .social {
@@ -221,4 +222,19 @@ header .heading {
 
 header,nav,h2,.main-visual,footer {
   font-family: Chalkduster,"Bradley Hand",Courier,"Segoe Print",sans-serif;
+}
+@media screen and (max-width:425px) {
+  .blog{
+    width: 100%;
+  }
+}
+@media screen and (max-width:425px) {
+  .pagination{
+    width: 100%;
+  }
+}
+@media screen and (max-width:425px) {
+  .sidebar{
+    width: 100%;
+  }
 }

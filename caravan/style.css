@@ -53,6 +53,7 @@ header {
   padding: 15px 0;
   margin: 0 auto;
   text-align: center;
+  position: relative;
 }
 
 footer {
@@ -205,4 +206,19 @@ header .heading {
   background-color: #acabab;
   border-radius: 3px;
   line-height: 30px;
+}
+
+.social i {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.social {
+  position: absolute;
+  top: 22px;
+  right: 22px;
+}
+
+header,nav,h2,.main-visual,footer {
+  font-family: Chalkduster,"Bradley Hand",Courier,"Segoe Print",sans-serif;
 }

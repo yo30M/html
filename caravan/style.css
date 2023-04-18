@@ -242,8 +242,7 @@ header,nav,h2,.main-visual,footer {
 }
 @media screen and (max-width:768px) {
   main{
-    display: block;
-    width: 425px;
+    width: 100%;
   }
 }
 
@@ -263,5 +262,37 @@ header,nav,h2,.main-visual,footer {
 @media screen and (max-width:425px) {
   .social i {
     margin-left: 5px;
+  }
+}
+@media screen and (max-width:425px)　{
+  body {
+    width: 90%;
+  }
+}
+@media screen and (max-width:768px) {
+  .sidebar {
+    margin-top: 0;
+  }
+}
+@media screen and (max-width:425px) {
+  main {
+    width: 100%;
+    display: block;
+  }
+}
+@media screen and (max-width:425px) {
+  .pagination {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width:425px) {
+  .sidebar-contents {
+    margin: 0 auto;
+    padding-left: 10px
+  }
+}
+@media screen and (max-width:425px) {
+  .instagram-box {
+    margin: 0 10px 10px 0;
   }
 }

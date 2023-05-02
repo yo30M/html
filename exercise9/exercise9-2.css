@@ -47,7 +47,7 @@ footer {
 }
 
 .content-img2 {
-  background-image: url(img/flow03.png);
+  background-image: url(img/flow02.png);
   height: 150px;
   background-position: bottom;
   background-size: cover;
@@ -55,7 +55,7 @@ footer {
 }
 
 .content-img3 {
-  background-image: url(img/flow02.png);
+  background-image: url(img/flow03.png);
   height: 150px;
   background-position: bottom;
   background-size: cover;
@@ -77,3 +77,31 @@ footer {
 .content:nth-child(2) {
   margin-right: 30px;
 }
+
+@media screen and (max-width:768px) {
+  main {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .content {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .content:nth-child(1) {
+    margin: 0 auto 20px auto;
+  }
+
+@media screen and (max-width:768px) {
+  .content:nth-child(2) {
+    margin: 0 auto 20px auto;
+  }
+
+@media screen and (max-width:768px) {
+  .content:nth-child(3) {
+    margin: 0 auto;
+  }

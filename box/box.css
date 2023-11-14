@@ -10,5 +10,8 @@
   width: 100px;
   height: 100px;
   background-color: blue;
-  border: 5px solid yellow;
+  border-top: 5px double yellow;
+  border-bottom-color: red;
+  border-bottom-width: 10px;
+  border-bottom-style: solid;
 }
